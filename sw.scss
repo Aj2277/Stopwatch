@@ -1,0 +1,42 @@
+$txtColor: #ffffff;
+$bodyColor: rgb(12, 130, 220);
+
+body {
+    background: $bodyColor;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+};
+h1 {
+    color: $txtColor;
+    font-family: fantasy;
+    font-size: 50px;
+}
+.nums {
+    font-family: Optima, sans-serif;
+    font-size: 65px;
+    color: #ffffff;
+}
+button {
+    background-color: $bodyColor;
+    border-color: #ffffff;
+    border-radius: 7px;
+    border: solid 1px white;
+    width: 200px;
+    margin: 5px;
+    cursor: pointer;
+    outline: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    &:hover{
+        background: #ffffff;
+        color: $bodyColor
+    }
+}
+
+
